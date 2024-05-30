@@ -1,0 +1,26 @@
+<app-layout></app-layout>
+<div class="container col-md-6">
+  <h1 class="text-center text-info my-3">Create User</h1>
+  <div class="alert alert-success" *ngIf="message.length > 1">
+    {{message}}
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <div class="form-group">
+        <label for="">User Name</label>
+        <input type="text" class="form-control" [(ngModel)]="UserObject.name" placeholder="Enter User Name" />
+
+      </div>
+      <div class="form-group">
+        <label for="">Password</label>
+        <input type="password" class="form-control" [(ngModel)]="UserObject.password"  placeholder="Enter Your Password"/>
+      </div>
+      <div class="form-group">
+        <label for="">Phone Number</label>
+        <input type="text" class="form-control" [(ngModel)]="UserObject.phone" placeholder="Enter your phone" />
+      </div>
+
+      <button class="btn btn-info my-3" (click)="create()">Creat User</button>
+    </div>
+  </div>
+</div>

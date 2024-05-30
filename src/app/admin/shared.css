@@ -1,0 +1,30 @@
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
+
+/* body {
+  background-color: black;
+  color: white;
+} */
+
+.card {
+  padding: 20px;
+  background-color: #333;
+}
+
+.card-body{
+  background-color: black;
+  color: aliceblue;
+}
+
+.form-group{
+  margin: 10px 0px;
+}
+
+.form-control{
+  margin: 10px 0px;
+}
+
+table , tr , td , th{
+  border: 2px solid white;
+  text-align: center;
+  padding: 10px;
+}
